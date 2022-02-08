@@ -1,0 +1,42 @@
+h3{
+font-size: 40px !important;
+text-align: center;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oooh Baby', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Serif 4', sans-serif;
+font-family: 'Vujahday Script', cursive;
+font-family: 'Waterfall', cursive;
+}
+
+button:hover{
+    transition: all 4s ease;
+    transform: scale(1.1);
+    background-color: cyan;
+    color: darkslategrey;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+canvas{
+    animation-name: animate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes animate{
+    0%{
+        box-shadow: 1px 1px 38px rgb(6, 159, 248);
+    }
+    25%{   box-shadow: 1px 1px 38px rgb(66, 140, 184);
+    }
+    50%{
+        box-shadow: 1px 1px 38px rgb(20, 89, 129);
+    }
+    75%{
+        box-shadow: 1px 1px 38px rgb(26, 78, 221);
+    }
+    100%{
+        box-shadow: 1px 1px 38px rgb(84, 27, 216);
+    }
+}
